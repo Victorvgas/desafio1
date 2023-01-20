@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Challenge 1: Decodificador de Texto</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<main class="main">
+		<header class="cabecalho">
+			<a href="https://www.alura.com.br/"><img src="imgs/alura_logo.svg" alt="Logo do Curso Patrocinador do Challenge"></a>
+			<ul id="midias">
+				<li class="instagram">
+					<a href="https://www.instagram.com/victor.goncalves.almeida/"><img class="instagram.icon" src="imgs/instagram.svg" alt="Logo mídia social instagram" width="50px"></a>
+				</li>
+				<li class="github">
+					<a href="https://github.com/Victorvgas"><img class="github.icon" src="imgs/github.svg" alt="Logo do repositório github" width="39px"></a>
+				</li>
+				<li class="linkedin">
+					<a href="https://www.linkedin.com/in/victor-gonçalves-vgas"><img class="linkedin" src="imgs/linkedin.svg" alt="Logo do Linkedin" width="50px"></a>
+				</li>
+			</ul>
+			
+		</header>
+
+		<section class="collector">
+			<div class="inform-input">
+				<div class="text-input">
+					<textarea class="textbox" cols="30" rows="10" placeholder="Digite um texto que você deseja criptografar ou descriptografar"></textarea>
+
+		            <div>
+						<div id="alert-icon">
+							<span class="material-symbols-outlined">error</span>
+							<span>Apenas letras maiúsculas e não acentuadas</span>
+						</div>
+					</div>
+
+					<div class="buttons">
+						<button id="criptografar">Criptografar</button>
+						<button id="descriptografar">Descriptografar</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<aside class="extractor">
+			<div class="empty">
+				<textarea class="outputbox" readonly cols="30" rows="10"></textarea><button id="copiar">Copiar</button>
+			</div>
+			<div id="waiting">
+				<img src="imgs/person_logo.svg" alt="Logo de espera do resultado">
+				<p>Nenhuma mensagem encontrada</p>
+			</div>			
+		</aside>
+	</main>
+
+	<footer>
+		<p class="copyright">&copy; Copyright Desafio I: Desenvolvido por Victor Gonçalves durante o <br> programa <a href="https://www.oracle.com/br/education/oracle-next-education/"> "ONE - Oracle Next Education"</a> - 2023 </br></p>	
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>

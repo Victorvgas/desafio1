@@ -1,3 +1,0 @@
-inform input = container-input
-text-input = input
-inform output = output
